@@ -1,7 +1,7 @@
 import os
 
-def carteira (din_pessoal, conversao = 3.45):
-    din_dolar = din_pessoal / conversao
+def carteira (din_pessoal):
+    din_dolar = din_pessoal / 3.45
     return din_dolar
 
 
